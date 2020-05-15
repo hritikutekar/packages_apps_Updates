@@ -75,33 +75,6 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/notification_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:gravity="start"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:fontFamily="google-sans"
-                android:text="@string/notification"
-                android:textColor="@color/text_primary"
-                android:textSize="24sp"
-                android:textStyle="bold"
-                android:visibility="visible" />
-
-            <TextView
-                android:id="@+id/notification_content"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="@string/notification_content"
-                android:textColor="@color/text_primary"
-                android:textSize="16sp"
-                android:visibility="visible" />
-
-            <TextView
                 android:id="@+id/whats_new_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
